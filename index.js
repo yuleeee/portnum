@@ -2,7 +2,7 @@
 
 var fs = require('fs-extra');
 var Parser = require('rss-parser');
-var da = Math.floor((Date.now() - new Date(2023, 9, 31, 8, 0, 0, 0))/1000/60/60/24)+23456;
+var da = Math.floor((Date.now() - new Date(2023, 9, 31, 0, 0, 0, 0))/1000/60/60/24)+23456;
 const rssParser = new Parser();
 async function start() {
     // const blogResp = await rssParser.parseURL('https://blog.cmyr.ltd/atom.xml');
